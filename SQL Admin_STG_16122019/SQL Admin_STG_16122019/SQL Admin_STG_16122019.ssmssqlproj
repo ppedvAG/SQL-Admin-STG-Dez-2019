@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Admin_STG_16122019">
+  <Items>
+    <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local):HV-SQL2019\Administrator">
+          <Created>2020-01-03T09:15:25.4779418+01:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="HV-SQL2019:HV-SQL2019\Administrator">
+          <Created>2019-12-16T10:31:15.7498602+01:00</Created>
+          <Type>SQL</Type>
+          <Server>HV-SQL2019</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0001_Setup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0001_Setup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0002_First_Settings.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0002_First_Settings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0003_DB_Settings.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0003_DB_Settings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0004_SystemDbs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0004_SystemDbs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0005_DBDesign.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0005_DBDesign.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0006_DB_Objekte.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0006_DB_Objekte.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0007_Operator.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0007_Operator.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0008_Backup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0008_Backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0009_Security.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0009_Security.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0015_Monitoring.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0015_Monitoring.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DBSnapshot.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DBSnapshot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Fehlende Indizes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Fehlende Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Indizes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Install-All-Scripts.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Install-All-Scripts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Install-Core-Blitz-No-Query-Store.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Install-Core-Blitz-No-Query-Store.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Install-Core-Blitz-With-Query-Store.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Install-Core-Blitz-With-Query-Store.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IO Perf.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IO Perf.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Largest_IOS.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Largest_IOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Locks finden.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Locks finden.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MaintenanceSolution.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MaintenanceSolution.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Seiten und Blöcke.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Seiten und Blöcke.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_Blitz.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_Blitz.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_BlitzFirst.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_BlitzFirst.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_BlitzIndex.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_BlitzIndex.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_BlitzLock.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_BlitzLock.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_BlitzQueryStore.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_BlitzQueryStore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_BlitzWho.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_BlitzWho.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_Help_revlogin.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_Help_revlogin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Script to list VLF counts for all online databases.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQL Script to list VLF counts for all online databases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Server 2019 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQL Server 2019 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Überflüssige Indizes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Überflüssige Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WAIT_STATS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HV-SQL2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HV-SQL2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>WAIT_STATS.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="PAL_SQL2014.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PAL_SQL2014.xml</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
